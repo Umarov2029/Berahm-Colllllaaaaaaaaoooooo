@@ -4,4 +4,9 @@
 @theme {
   --breakpoint-sm 0;
   --breakpoint-md: 500px;
+=======
+@theme {
+  --breakpoint-xs: 0px;
+  --breakpoint-xl: 510px;
+  --breakpoint-3xl: 120rem;
 }
