@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../src/output.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.7.2-web/fontawesome-free-6.7.2-web/css/all.css">
+</head>
+<body>
+    <header>
+        <nav class="flex justify-between p-10 items-center">
+            <img src="./Search (1).png" alt="">
+            <img src="./Avion (1).png" alt="">
+            <div class="flex gap-2">
+                <img src="./Shopping--cart.png" alt="">
+                <img src="./User--avatar.png" alt="">
+            </div>
+        </nav>
+        <nav class="xs:hidden xl:block">
+             <ul class="flex justify-center gap-10 xs:hidden xl:flex">
+                <a href="./index.html">Plant pots</a>
+                <a href="./index2.html">Ceramics</a>
+                <a href="./index3.html">Tables</a>
+                <a href="./index4.html">Chairs</a>
+                <a href="./index5.html">Crockery</a>
+                <a href="./index.html">Tableware</a>
+                <a href="./index2.html">Cutlery</a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="p-20">
+            <h1 class="xs:text-4xl xl:text-6xl">Your shopping cart</h1>
+        </section>
+        <section class="p-10 flex justify-center items-center ">
+            <table class="w-[1000px]  border-spacing-2">
+                    <th class="xs:hidden xl:block">Product</th>
+                    <th class="xs:hidden xl:block">Quantity</th>
+                    <th class="xs:hidden xl:block">Total</th>
+                    <tr>
+                        <td class="flex gap-2 items-center">
+                            <img src="./Product Image.png" alt="">
+                            <div>
+                                <h1>Graystone vase</h1>
+                            <p>A timeless ceramic vase with <br> 
+                                a tri color grey glaze.</p>
+                            <p>£85</p>
+                        </div>
+                    </td>
+                    <td>1</td>
+                    <td>£85</td>
+                </tr>
+                <tr class="mt-[20px]">
+                    <td class="flex gap-2 items-center">
+                        <img src="./Product Image (1).png" class="mt-[40px]">
+                        <div>
+                            <h1>Basic white vase</h1>
+                            <p>Beautiful and simple this is <br>
+                            one for the classics</p>
+                            <p>£85</p>
+                        </div>
+                    </td>
+                    <td>1</td>
+                    <td>£85</td>
+                </tr>
+             </table>
+        </section>
+        <section class="text-[#2A254B] flex gap-2 flex-col xs:items-center xs:text-center xl:text-start xl:items-end p-10">
+            <h1 >Subtotal £210</h1>
+            <p>Taxes and shipping are calculated at checkout</p>
+            <button class="xs:w-[342px] xl:w-[172px] h-[56px] bg-[#2A254B] text-white ">Go to checkout</button>
+        </section>
+    </main>
+    <footer class=" justify-evenly bg-[#2A254B] text-white p-10 ">
+        <div class="flex justify-evenly xs:flex-wrap xl:flex-nowrap gap-5">
+            <ul>
+                <li>Menu</li>
+                <li>New arrivals</li>
+                <li>Best sellers</li>
+                <li>Recently viewed</li>
+                <li>Popular this week</li>
+                <li>All products</li>
+            </ul>
+            <ul>
+                <li>Categories</li>
+                <li>Crockery</li>
+                <li>Furniture</li>
+                <li>Homeware</li>
+                <li>Plant pots</li>
+                <li>Chairs</li>
+                <li>Crockery</li>
+            </ul>
+            <ul>
+                <li>Our company</li>
+                <li>About us</li>
+                <li>Vacancies</li>
+                <li>Contact us</li>
+                <li>Privacy</li>
+                <li>Returns policy</li>
+            </ul>
+            <ul class="mt-[100px] xl:mt-0 flex flex-col gap-10">
+                <li>Join our mailing list</li>
+                <div class="flex  xl:items-center xs:flex-col gap-2">
+                    <input type="email" placeholder="your@email.com" class="xs:w-[300px] xl:w-[509px] h-[56px] bg-white/10 backdrop-sepia-0">
+                    <button class="xl:w-[118px] xl:h-[56px] xs:w-[300px] xs:h-[56px] bg-white text-black">Sign up</button>
+                </div>
+            </ul>
+            </div>
+            <div class="flex  xl:justify-between mt-[100px] xs:justify-cente xs:flex-col xl:flex-row xs:text-center border-t-2 pt-10">
+            <h1>Copyright 2022 Avion LTD</h1>
+            <div class="flex gap-5 xs:hidden xl:block">
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-skype"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-pinterest"></i>
+            </div>
+            </div>
+    </footer>
+</body>
+</html>
