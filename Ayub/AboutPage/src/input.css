@@ -1,0 +1,118 @@
+@import "tailwindcss";
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    section {
+        padding: 20px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* Header */
+    .flex.items-center.justify-between.gap-4.p-10.pb-0 {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .flex.items-center.justify-around.gap-8.text-sm.text-\[\#726E8D\].list-none {
+        display: none; /* Hide main navigation on mobile */
+    }
+
+    /* Hamburger menu icon */
+    .flex.items-center.justify-between.gap-4.p-10.pb-0 img {
+        display: block; /* Show hamburger icon */
+        order: -1; /* Place it at the beginning */
+    }
+
+    /* Second navigation section */
+    .flex.mb-7.mt-7.items-center.justify-center.bg-gray-300.gap-4.p-10.pt-4.pb-4 {
+        display: none; /* Hide this section on mobile */
+    }
+
+    /* First main content section */
+    .flex.items-center.justify-between.gap-7.p-20.pl-0.mt-8.mb-10 {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .flex.flex-col.items-baseline.ml-4.text-white.p-16.bg-\[\#2A254B\] {
+        margin-left: 0;
+        padding: 20px;
+        width: 100%;
+    }
+
+    .flex.items-center.justify-between.gap-7.p-20.pl-0.mt-8.mb-10 img {
+        padding: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    /* Second main content section */
+    .p-20.pl-0.flex.items-center.justify-between.gap-7.mt-10.mb-10.text-\[\#2A254B\] {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .p-20.pl-0.flex.items-center.justify-between.gap-7.mt-10.mb-10.text-\[\#2A254B\] img {
+        width: 100%;
+        height: auto;
+    }
+
+    .flex.items-baseline.flex-col.justify-start.text-\[\#2A254B\].p-10 {
+        padding: 20px;
+        width: 100%;
+    }
+
+    /* What makes our brand different section */
+    .flex.flex-col.items-center.mb-14.justify-center.p-20.text-\[\#2A254B\] {
+        padding: 20px;
+    }
+
+    .flex.items-baseline.justify-center.mb-6.gap-4 {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .flex.flex-col.items-baseline.justify-start.w-1\/4.bg-amber-50.rounded-2xl.p-10.pb-7.pt-7 {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* Join the club section */
+    .flex.items-center.justify-center.flex-col.p-20.text-\[\#2A254B\] {
+        padding: 20px;
+    }
+
+    .flex.items-center.justify-center.bg-gray-50 {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .flex.items-center.justify-center.bg-gray-50 input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .flex.items-center.justify-center.bg-gray-50 button {
+        width: 100%;
+    }
+
+    /* Footer */
+    .flex.items-baseline.gap-7.justify-between.p-16.text-white.bg-\[\#2A254B\].mt-4 {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding: 20px;
+    }
+
+    .flex.items-baseline.gap-7.justify-between.p-16.text-white.bg-\[\#2A254B\].mt-4 > div {
+        align-items: center;
+        text-align: center;
+    }
+}
