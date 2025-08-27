@@ -1,0 +1,139 @@
+@import "tailwindcss";
+
+@media (max-width: 768px) {
+    
+    body {
+        font-size: 14px;
+    }
+
+    section {
+        padding: 10px; 
+    }
+
+    
+    .header-nav { 
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-nav ul {
+        display: none; 
+    }
+    .header-nav img { 
+        margin-top: 10px;
+    }
+
+    
+    .product-detail-section { 
+        flex-direction: column;
+        padding: 10px;
+    }
+    .product-detail-section img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .product-detail-section > div { 
+        align-items: center;
+        margin-left: 0;
+        text-align: center;
+    }
+    .product-detail-section h1 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .product-detail-section h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .product-detail-section p {
+        text-align: center;
+    }
+    .product-detail-section .flex.items-center.justify-around.gap-6 { 
+        flex-direction: column;
+        gap: 10px;
+    }
+    .product-detail-section .flex.items-center.justify-between.gap-5 { 
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+    .product-detail-section .flex.items-baseline.justify-between.p-8 { 
+        width: 100%;
+        justify-content: center;
+    }
+    .product-detail-section button { 
+        width: 100%;
+        text-align: center;
+    }
+
+    
+    .you-might-also-like-section > div { 
+        flex-direction: column;
+        gap: 20px;
+    }
+    .you-might-also-like-section .w-1\/2,
+    .you-might-also-like-section .w-1\/4 {
+        width: 100%;
+        align-items: center;
+    }
+    .you-might-also-like-section img {
+        width: 100%;
+        height: auto;
+    }
+    .you-might-also-like-section h3,
+    .you-might-also-like-section p {
+        text-align: center;
+    }
+
+    
+    .brand-different-section > div { 
+        flex-direction: column;
+        gap: 20px;
+    }
+    .brand-different-section .w-1\/4 {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    
+    .join-club-section { 
+        flex-direction: column;
+        padding: 10px;
+    }
+    .join-club-section img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .join-club-section > div { 
+        padding: 0;
+    }
+    .join-club-section h1,
+    .join-club-section h4 {
+        text-align: center;
+    }
+    .join-club-section .flex.items-center.justify-center.bg-gray-50 {
+        flex-direction: column;
+        width: 100%;
+    }
+    .join-club-section input[type="email"] {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .join-club-section button {
+        width: 100%;
+    }
+
+    
+    .footer-section { 
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding: 20px;
+    }
+    .footer-section > div { 
+        align-items: center;
+        text-align: center;
+    }
+}
